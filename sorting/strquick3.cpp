@@ -1,3 +1,10 @@
+// 3-way quicksort for strings
+// This program reads a list of strings from a file and sorts them using 3-way
+// quicksort.
+// The program takes one command - line argument : the filename.
+// Example usage:
+//   ./strquick3 words.txt
+
 #include <fstream>
 #include <iostream>
 #include <string>
