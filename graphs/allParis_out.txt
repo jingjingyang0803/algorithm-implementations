@@ -1,0 +1,54 @@
+Iteration 0
+    0  inf   -2  inf
+    4    0    3  inf
+  inf  inf    0    2
+  inf   -1  inf    0
+
+   null   null    1-3   null
+    2-1   null    2-3   null
+   null   null   null    3-4
+   null    4-2   null   null
+
+Iteration 1
+    0  inf   -2  inf
+    4    0    2  inf
+  inf  inf    0    2
+  inf   -1  inf    0
+
+   null   null    1-3   null
+    2-1   null    2-1   null
+   null   null   null    3-4
+   null    4-2   null   null
+
+Iteration 2
+    0  inf   -2  inf
+    4    0    2  inf
+  inf  inf    0    2
+    3   -1    1    0
+
+   null   null    1-3   null
+    2-1   null    2-1   null
+   null   null   null    3-4
+    4-2    4-2    4-2   null
+
+Iteration 3
+    0  inf   -2    0
+    4    0    2    4
+  inf  inf    0    2
+    3   -1    1    0
+
+   null   null    1-3    1-3
+    2-1   null    2-1    2-1
+   null   null   null    3-4
+    4-2    4-2    4-2   null
+
+Iteration 4
+    0   -1   -2    0
+    4    0    2    4
+    5    1    0    2
+    3   -1    1    0
+
+   null    1-3    1-3    1-3
+    2-1   null    2-1    2-1
+    3-4    3-4   null    3-4
+    4-2    4-2    4-2   null
