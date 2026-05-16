@@ -1,3 +1,13 @@
+// Topological order or a cycle implementation using Kahn's algorithm.
+// The program reads a directed graph from a file and outputs either a
+// topological order of the nodes if the graph is acyclic, or a cycle if the
+// graph is not acyclic.
+// The graph is given as a list of edges, where each line contains two integers
+// representing the source and destination of the edge.
+// The program takes one command-line argument: the filename.
+// Example usage:
+//   ./topcycle graph.txt
+
 #include <algorithm>
 #include <fstream>
 #include <iostream>

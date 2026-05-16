@@ -1,3 +1,15 @@
+// Shortest paths vs negative cycles implementation using Bellman-Ford
+// algorithm.
+// The program reads a directed graph from a file and outputs the shortest paths
+// from a given source node to all other nodes, or detects if there is a
+// negative cycle reachable from the source.
+// The graph is given as a list of edges, where each line contains three
+// integers: the source node, the destination node, and the weight of the edge.
+// The program takes two command-line arguments: the filename and the source
+// node.
+// Example usage:
+//   ./bellman graph.txt 0
+
 #include <algorithm>
 #include <climits>
 #include <fstream>

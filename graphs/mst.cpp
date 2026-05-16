@@ -1,3 +1,13 @@
+// Minimum spanning tree implementation using Prim's algorithm.
+// The program reads a graph from a file and outputs the edges in the MST and
+// its total cost.
+// The graph is given as a list of edges, where each line contains three
+// integers: the source node, the destination node, and the weight of the edge.
+// The program takes two command - line arguments : the filename and the
+// starting node for Prim's algorithm.
+// Example usage :
+//   ./mst graph.txt 0
+
 #include <algorithm>
 #include <fstream>
 #include <iostream>

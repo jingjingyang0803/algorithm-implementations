@@ -1,3 +1,12 @@
+// Articulation nodes and bridges implementation using Tarjan's algorithm.
+// The program reads an undirected graph from a file and outputs the
+// articulation nodes and bridges in the graph.
+// The graph is given as a list of edges, where each line contains two strings
+// representing the endpoints of the edge.
+// The program takes one command-line argument: the filename.
+// Example usage:
+//   ./artbridges graph.txt
+
 #include <algorithm>
 #include <fstream>
 #include <iostream>

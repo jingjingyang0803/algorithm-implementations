@@ -1,3 +1,4 @@
+// Start node: 5
 ** Iteration 1 **
 Adding the edge (3, 5, 5) with the new node 3
 ** Iteration 2 **
