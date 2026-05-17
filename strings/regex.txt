@@ -1,0 +1,20 @@
+0 concat 1 2
+1 concat 3 4
+2 concat 5 6
+3 + 7
+4 * 8
+5 @
+6 concat 9 10
+7 \w
+8 concat 11 12
+9 | 13 19
+10 concat 14 15
+11 \.
+12 + 16
+13 | 17 18
+14 \.
+15 fi
+16 \w
+17 tamk
+18 tut
+19 uta

@@ -1,0 +1,12 @@
+NFA transitions:
+Level 1: [0-1: \w]
+Level 2: [1-0: EPS] [1-2: EPS] [1-3: EPS]
+Level 3: [2-4: .] [3-5: @]
+Level 4: [4-6: \w] [5-7: EPS] [5-8: EPS]
+Level 5: [6-4: EPS] [6-2: EPS] [6-3: EPS] [7-9: EPS] [7-10: EPS] [8-11: u]
+Level 6: [9-12: t] [10-13: t] [11-14: t]
+Level 7: [12-15: a] [13-16: u] [14-17: a]
+Level 8: [15-18: m] [16-19: t] [17-20: EPS]
+Level 9: [18-21: k] [19-22: EPS] [20-23: .]
+Level 10: [21-22: EPS] [22-20: EPS] [23-24: f]
+Level 11: [24-25: i]
