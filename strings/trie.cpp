@@ -1,3 +1,11 @@
+// Trie implementation for string matching
+// This program reads a list of strings from a file and builds a trie data
+// structure for them. It then reads patterns from another file and matches them
+// against the trie, printing the matching process step by step. The program
+// takes two command-line arguments: the first is the filename for the list of
+// strings, and the second is the filename for the patterns. Example usage:
+//   ./trie strings.txt patterns.txt
+
 #include <algorithm>
 #include <cctype>
 #include <fstream>
